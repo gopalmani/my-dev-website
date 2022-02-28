@@ -40,3 +40,12 @@
       <ProjectCard {name} {description} url={image[0].url} {slug} />
     {/each}
   </div>
+
+  <p>Hello Svelte</p>
+
+<style>
+  p {
+    color: red;
+    font-size: 2rem;
+  }
+</style>
