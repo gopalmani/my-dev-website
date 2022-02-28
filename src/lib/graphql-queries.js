@@ -43,4 +43,4 @@ export const projectQuery = gql`
     project(where: { slug: $slug }) {
       ...ProjectDetails
     }
-  }
+}
